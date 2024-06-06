@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "adhkar/package.json",
+        "src": "package.json",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "adhkar/$1"
+        "dest": "/$1"
       }
     ]
   }
