@@ -1,0 +1,59 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+expo/
+.expo-shared/
+
+# macOS
+.DS_Store
+
+# Expo
+.expo/
+.expo-shared/assets/
+
+# iOS
+ios/Pods/
+ios/build/
+*.xcodeproj/
+*.xcworkspace/
+ios/DerivedData/
+ios/.DS_Store
+ios/Podfile.lock
+
+# Android
+*.iml
+.idea/
+.gradle/
+local.properties
+*.keystore
+android/app/build/
+android/.cxx/
+android/.gradle/
+android/app/release/
+
+# VSCode
+.vscode/
+.history/
+
+# Miscellaneous
+*.swp
+*.swo
+*.swn
+*.log
+*.tmp
+*.lock
+
+# Specific files
+*.env
+config.js
+
+# Expo Web
+web-build/
+
+# Other
+package-lock.json
+npm-debug.log
+.pnp.*
+.pnp
