@@ -4,7 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './src/components/HomeScreen';
 import MorningAdhkar from './src/components/MorningAdhkar';
 import EveningAdhkar from './src/components/EveningAdhkar';
-
+// hi
 const Stack = createNativeStackNavigator();
 
 export default function App() {
